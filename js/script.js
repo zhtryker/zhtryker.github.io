@@ -5,6 +5,7 @@ $(document).on("click", ".click_me", function() {
     if (counter == 3){
         alert('Told you I was useless!');
         $('.click_me').popover({
+            trigger: 'click',
             bs-content: "Told you I was useless!"
         });
     }
